@@ -1,0 +1,29 @@
+{
+  "name": "typography-theme-ashby-bart",
+  "author": "Rich Werden <rich@richwerden.com>",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "A theme for Typography.js",
+  "main": "./dist/index.js",
+  "keywords": [
+    "css",
+    "typography",
+    "typography-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/r-i-c-h/typography-theme-ashby-bart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/r-i-c-h/typography-theme-ashby-bart/issues"
+  },
+  "dependencies": {
+    "compass-vertical-rhythm": "^1.4.5",
+    "gray-percentage": "^2.0.0",
+    "typography-breakpoint-constants": "^0.16.19"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.2"
+  }
+}
