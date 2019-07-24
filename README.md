@@ -1,23 +1,18 @@
-# typography-theme-ashby-bart
-Making a theme for Typography.js...
-
-https://github.com/r-i-c-h/typography-theme-ashby-bart.git
-
 # Ashby BART — a <a href='https://github.com/kyleamathews/typography.js'>Typography.js</a> theme
 
-A theme for Typography.js by Rich <a href='https://richwerden.com'>
+A theme for Typography.js by <a href='https://richwerden.com'>Rich</a>
 
 ## Install
 ```bash
-npm install --save typography  ~~typography-theme-judah~~
+npm install --save typography typography-theme-ashby-bart
 ```
 ## Usage
 ```javascript
 import Typography from 'typography'
-import ashby from 'typography-theme-ashby-bart'
+import Ashby from 'typography-theme-ashby-bart'
 
-const typography = new Typography(ashby)
+const typography = new Typography(Ashby)
 ```
 ## More on theme
 
-Ashby BART does *not* use "<a href='https://fonts.google.com/specimen/Roboto+Condensed'>Roboto Condensed</a>" for headers and "<a href='https://fonts.google.com/specimen/Vollkorn'>Vollkorn</a>" for body text....
+Ashby BART splits colors and some text variables into their own objects within a separate `constants.js` file for easier experimentation. Font-families and weights are defined within the Typography theme object. The fonts used in the Ashby BART theme are "Quicksand" for headers and "EB Garamond" for body-text. Both are available from the https://fonts.google.com CDN.
