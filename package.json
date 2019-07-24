@@ -19,7 +19,6 @@
   },
   "dependencies": {
     "compass-vertical-rhythm": "^1.4.5",
-    "gray-percentage": "^2.0.0",
     "typography-breakpoint-constants": "^0.16.19"
   },
   "devDependencies": {
